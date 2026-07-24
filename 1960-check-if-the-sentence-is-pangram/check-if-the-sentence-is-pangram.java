@@ -5,11 +5,6 @@ class Solution {
       {
       m.add(s.charAt(i));
       }
-      int n=m.size();
-      if(n!=26)
-      {
-        return false;
-      }
-        return true;
+        return m.size()==26;
     }
 }
