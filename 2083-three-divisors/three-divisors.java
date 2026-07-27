@@ -8,7 +8,6 @@ class Solution {
                 count++;
             }
         }
-        System.out.print(count);
         if(count==3)
         {
             return true;
